@@ -82,9 +82,7 @@ There are many open source libraries for this purpose that provide large amounts
 
 You need to take the web server code from this project as a basis to maintain backward compatibility with the plugin for VSCode.
 
-Use the transformers models library to output data from the model. In particular, use the GPT2Tokenizer.
-
-Использовать [transformers](https://github.com/huggingface/transformershttps://github.com/huggingface/transformers) models library для выдачи данных из модели. В частности использовать GPT2Tokenizer.
+Use the [transformers](https://github.com/huggingface/transformershttps://github.com/huggingface/transformers) models library to output data from the model. In particular, use the GPT2Tokenizer.
 
 Use DeepSpeed for FineTuning a model.
 
